@@ -70,5 +70,6 @@ public class main {
         Electricals.addStudentsToModule(jf);
         //System.out.print(Programming.listOfStudentsInModule);
         //System.out.print(course);
+        //System.out.print(jf.listOfModules());
     }
 }

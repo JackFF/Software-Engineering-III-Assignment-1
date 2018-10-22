@@ -53,4 +53,9 @@ public class Student {
         this.courseRegisteredFor = course.courseName;
         return this.courseRegisteredFor;
     }
+    
+    public String listOfModules() {
+        
+        return "" + course.listOfModulesInCourse;
+    }
 }
