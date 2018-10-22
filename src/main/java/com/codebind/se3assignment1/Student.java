@@ -46,7 +46,7 @@ public class Student {
         
         return "Student Name:\t" + studentFName + " " + studentLName + "\nStudent Age:\t" + studentAge 
                 + "\nStudent DOB:\t" + studentDOB + "\nStudent ID:\t" + studentID + "\nCourse:\t" + 
-                course.courseName + "\n" + "Assigned Modules:\t" + course.listOfModulesInCourse + "\n";
+                course.courseName + "\n" + "Assigned Modules:\n" + course.listOfModulesInCourse + "\n";
     }
     
     public String courseRegisteredFor() {
