@@ -45,7 +45,8 @@ public class Student {
     public String toString() {
         
         return "Student Name:\t" + studentFName + " " + studentLName + "\nStudent Age:\t" + studentAge 
-                + "\nStudent DOB:\t" + studentDOB + "\nStudent ID:\t" + studentID + "\nCourse:\t" + course.courseName + "\n";
+                + "\nStudent DOB:\t" + studentDOB + "\nStudent ID:\t" + studentID + "\nCourse:\t" + 
+                course.courseName + "\n" + "Assigned Modules:\t" + course.listOfModulesInCourse + "\n";
     }
     
     public String courseRegisteredFor() {
