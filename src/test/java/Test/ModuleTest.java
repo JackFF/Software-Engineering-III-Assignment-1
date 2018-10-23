@@ -6,6 +6,7 @@
 package Test;
 
 import com.codebind.se3assignment1.*;
+import com.codebind.se3assignment1.Module;
 import java.util.ArrayList;
 import static org.hamcrest.CoreMatchers.is;
 import org.joda.time.LocalDate;
