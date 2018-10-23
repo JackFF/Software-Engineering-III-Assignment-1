@@ -17,7 +17,7 @@ public class Course {
     String courseName;
     LocalDate academicStartDate;
     LocalDate academicEndDate;
-    ArrayList<Module> listOfModulesInCourse = new ArrayList<>();
+    ArrayList<Modules> listOfModulesInCourse = new ArrayList<>();
     
     public Course(String name, LocalDate academicStart, LocalDate academicEnd) {
         
@@ -37,7 +37,7 @@ public class Course {
         this.academicEndDate = academicEnd;
     }
     
-    public void addModulesToCourse(Module module) {
+    public void addModulesToCourse(Modules module) {
         
         if(listOfModulesInCourse.contains(module) == false) {
             
@@ -45,7 +45,7 @@ public class Course {
         }
     }
     
-    public ArrayList<Module> getModules() {
+    public ArrayList<Modules> getModules() {
         
         return listOfModulesInCourse;
     }

@@ -12,13 +12,13 @@ import java.util.ArrayList;
  *
  * @author Jack
  */
-public class Module {
+public class Modules {
     
     String moduleName;
     String moduleID;
     ArrayList<Student> listOfStudentsInModule = new ArrayList<>();
     
-    public Module(String name, String id) {
+    public Modules(String name, String id) {
         
         this.moduleName = name;
         this.moduleID = id;

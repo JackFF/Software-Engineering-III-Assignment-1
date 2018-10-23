@@ -34,11 +34,11 @@ public class CourseTest {
     public void modulesAreAddedToModuleArrayList() {
         
         Course testCourse = new Course("Test", new LocalDate(2018, 10, 7), new LocalDate(2019, 6, 16));
-        Module testModule1 = new Module("Test Module 1", "CT114");
-        Module testModule2 = new Module("Test Module 2", "CT115");
+        Modules testModule1 = new Modules("Test Module 1", "CT114");
+        Modules testModule2 = new Modules("Test Module 2", "CT115");
         testCourse.addModulesToCourse(testModule1);
         testCourse.addModulesToCourse(testModule2);
-        ArrayList<Module> modules = new ArrayList<>();
+        ArrayList<Modules> modules = new ArrayList<>();
         modules.add(testModule1);
         modules.add(testModule2);
         assertThat(testCourse.getModules(), is(modules));

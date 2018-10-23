@@ -25,13 +25,13 @@ public class main {
         course.add(EE);
         //System.out.print(course);
         
-        ArrayList<Module> module = new ArrayList<>();
-        Module Programming = new Module("Programming", "CT117");
-        Module Fundamentals = new Module("Fundamentals", "CT118");
-        Module Electricals = new Module("Electricals", "CT119");
-        Module Materials = new Module("Materials", "CT120");
-        Module ProfessionalSkills = new Module("Professional Skills", "CT121");
-        Module mudderfuck = new Module("mudderfuck", "CT122");
+        ArrayList<Modules> module = new ArrayList<>();
+        Modules Programming = new Modules("Programming", "CT117");
+        Modules Fundamentals = new Modules("Fundamentals", "CT118");
+        Modules Electricals = new Modules("Electricals", "CT119");
+        Modules Materials = new Modules("Materials", "CT120");
+        Modules ProfessionalSkills = new Modules("Professional Skills", "CT121");
+        Modules mudderfuck = new Modules("mudderfuck", "CT122");
         module.add(Programming);
         module.add(Fundamentals);
         module.add(Electricals);
