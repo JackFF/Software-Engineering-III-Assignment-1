@@ -1,4 +1,4 @@
-name: Software-Engineering-III-Assignment-1_runCI
-type: runCI
-steps:
-  - IN: Software-Engineering-III-Assignment-1_ciRepo
+language: java
+
+jdk:
+  - oraclejdk8
