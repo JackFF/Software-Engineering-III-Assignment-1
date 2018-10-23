@@ -1,21 +1,4 @@
-language: java
-
-jdK: 
-  - openjdk10
-
-branches:
-  only:
-    - master
-
-build:
-  ci:
-    - mvn compiler:compile
-    - mvn test
-
-integrations:
-  notifications:
-    - integrationName: email
-      type: email
-      on_success: yes
-      on_failure: always
-      on_pull_request: never
+name: Software-Engineering-III-Assignment-1_runCI
+type: runCI
+steps:
+  - IN: Software-Engineering-III-Assignment-1_ciRepo
