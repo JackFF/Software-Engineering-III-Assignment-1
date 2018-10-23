@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
  * @author Jack
  */
 public class CourseTest {
-    
+    /*
     @Test(expected = IllegalArgumentException.class)
     public void ifStartDateIsAfterEndDateThenThrowException() {
         
@@ -42,5 +42,5 @@ public class CourseTest {
         modules.add(testModule1);
         modules.add(testModule2);
         assertThat(testCourse.getModules(), is(modules));
-    }
+    }*/
 }

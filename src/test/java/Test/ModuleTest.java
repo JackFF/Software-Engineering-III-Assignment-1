@@ -19,7 +19,7 @@ import static org.junit.Assert.*;
  */
 public class ModuleTest {
     
-    @Test
+    /*@Test
     public void studentsAreAddedToStudentsArrayList() {
         
         Course testCourse = new Course("Test", new LocalDate(2018, 10, 7), new LocalDate(2019, 6, 16));
@@ -32,5 +32,5 @@ public class ModuleTest {
         students.add(testStudent1);
         students.add(testStudent2);
         assertThat(testModule.getStudents(), is(students));
-    }
+    }*/
 }
