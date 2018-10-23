@@ -2,3 +2,8 @@ language: java
 
 jdk:
   - oraclejdk8
+  
+build:
+  ci:
+   - mvn install -DskipTests=true
+   - mvn clean cobertura:cobertura
